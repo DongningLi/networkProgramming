@@ -1,0 +1,20 @@
+Project Milestone #2
+Program author: Dongning Li & Haoge Lin
+
+Steps to run:
+1. Unzip the file
+
+2. Open the terminal and input following command:
+ 2.1. “cd <project directory path>”
+ 2.2. “make build”
+ 2.3. “chmod +x compile.sh”
+ 2.4. “./compile.sh <port number>”
+
+3. Open a new terminal and input the following command:
+ 2.1 For tcp connection : “sock :<port number>”]
+  2.1.1 After inputing, input enter to end this command line
+ 2.2 For udp connection : “sock -u “<port number>”
+  2.2.1 continue inputing till system gets 1024 bytes
+
+! Notice:
+  Due to the operation complexity, script1.sh only contains the command used to send message. Any other commands needed please see file “read.me” or “user manual” part in file “DOCUMENTATION.pdf”
