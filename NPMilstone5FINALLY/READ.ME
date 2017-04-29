@@ -1,0 +1,25 @@
+﻿Project Milestone #5
+Program author: Dongning Li & Haoge Lin
+
+Steps to run:
+1. Unzip the file
+
+2. Open the terminal and input following command:
+2.1. “cd <project directory path>”
+2.2. “make build”
+
+3. Run the scripts
+3.1 Run scriptServer1.sh
+3.2 Run scriptServerPeerWitness.sh
+3.3 Run scriptClientTCP.sh (checkLeave.sh is executed when clients are initialized)
+
+4. Outcome
+4.1 TCP and UDP servers are started
+4.2 Peer witness server are started
+4.3 TCP client are started (checkLeave.sh is executed)
+4.4 Test message is sent and saved
+4.5 Broadcast message 0 is sent and saved
+4.6 Peer witness server is saved to peer list (ready to receive broadcasted messages)
+4.7 Broadcast message 1 is sent, saved and seen by witness server
+4.8 Delay time is up, peer witness server is removed from peer list
+4.9 Broadcast message 2 is sent and saved. (not seen by peer witness server)
