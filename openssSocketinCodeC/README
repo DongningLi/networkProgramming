@@ -1,0 +1,11 @@
+Assignment 6: OpenSSL
+Team Member: Dongning Li, Haoge Lin
+Environment: 64-bit windows & visual studio 2015
+Clarification:
+We referred to the course slides and some standard code online to make the program work. 
+Because programming in C is a tough job for us since neither of us knows C. 
+Now the program is able to be compiled but it is not able to connect to the course forum succesfully.
+Given the situation that we're running out of time, so we decide to turn in the program even though we failed to deliver all the function required by the assignment. 
+Please try to understand that we've already made our best efforts to make it work. Thank you.
+
+Due the size of project, we only upload the source files without environment setting files.
